@@ -1,7 +1,6 @@
 package work03;
 public class MyUtil {
     public static double calculateBMI(double weight , double height){
-	  double Got;
         double BMI;
         BMI = weight / (height * height);
         return BMI;
